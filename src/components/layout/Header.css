@@ -1,0 +1,13 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background: #6200ee ;
+    padding: 5px;
+    color: white;
+}
+header h1 {
+    font-size: 21px;
+    font-weight: normal;
+}
