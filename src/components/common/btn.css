@@ -1,4 +1,4 @@
-button{
+button, .btn{
     border: none;
     background: #2A913E;
     color: white;
@@ -7,4 +7,8 @@ button{
     font-size: 10px;
     padding: 2px 20px;
     border-radius: 2px;
+}
+.btn{
+    line-height: 22px;
+    text-transform: none;
 }

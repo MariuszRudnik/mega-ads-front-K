@@ -24,6 +24,6 @@ export const SimpleAd = (props:Props) =>{
             <p>{ad.description}</p>
             {ad.price && <p>{ad.price} zł</p>}
             <hr/>
-            <a href={ad.url} target="_blank">Otwórz ogłoszenia </a>
+            <a href={ad.url} target="_blank" rel="noreferrer">Otwórz ogłoszenia </a>
         </>)
 }
